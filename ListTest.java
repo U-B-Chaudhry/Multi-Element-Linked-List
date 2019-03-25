@@ -22,7 +22,7 @@ public class ListTest {
         System.out.println("Enter the number of nodes you would like to create");
         int count = input.nextInt();
         int nodeid=5000;
-//        Random rng = new Random();
+
         List<Integer> list = new List<Integer>();
         for(int i = 0; i < count; i++){
             list.insertAtBack(nodeid,count);
